@@ -1,0 +1,97 @@
+
+
+  <style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #090e34, #0e132d);
+    color: #ffffff;
+  }
+
+  header {
+    background: linear-gradient(to bottom, #0e132d, #090e34);
+    padding: 20px;
+  }
+
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: #4a6cf7;
+  }
+
+  #chat-log {
+    border: 1px solid #4a6cf7;
+    border-radius: 5px;
+    padding: 20px;
+    height: 400px;
+    overflow-y: scroll;
+    margin-bottom: 30px;
+  }
+
+  /* ... Other CSS styles ... */
+
+  #chat-log::-webkit-scrollbar-track {
+    background: linear-gradient(to bottom, #090e34, #0e132d);
+  }
+
+  #chat-log::-webkit-scrollbar-thumb {
+    background-color: #4a6cf7;
+    border-radius: 10px;
+    border: 3px solid #0e132d;
+  }
+
+  #chat-log::-webkit-scrollbar-thumb:hover {
+    background-color: #bdbec0;
+  }
+
+  /* ... Other CSS styles ... */
+
+  #chat-form input[type="submit"] {
+    background-color: #4a6cf7;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  }
+
+  #chat-form input[type="submit"]:hover {
+    background-color: #0e132d;
+    box-shadow: 0px 0px 15px #ffffff;
+    transform: scale(1.1);
+  }
+
+  #chat-form input[type="submit"]:active {
+    transform: scale(0.9);
+  }
+
+  #scroll-to-bottom {
+    /* ... Other styling ... */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* ... Other styling ... */
+  }
+
+  #scroll-to-bottom i {
+    color: #4a6cf7;
+  }
+
+  /* ... Other CSS styles ... */
+
+  </style>
+
+  <!-- ... Other head content ... -->
+
+</head>
+<body>
+  <!-- ... Rest of the HTML ... -->
+</body>
+</html>
